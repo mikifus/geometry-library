@@ -367,7 +367,7 @@ class PolyUtil {
         $lastLat = 0;
         $lastLng = 0;
 
-        $result = '';
+        self::$result = '';
 
         foreach( $path as $point ) {
             $lat = round( $point['lat'] * 1e5);
